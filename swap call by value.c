@@ -4,9 +4,9 @@ swap(int a,int b){
 	temp=a;
 	a=b;
 	b=temp;
-	return a;
-	return b;
-   // printf("a=%d and b=%d",a,b);
+	//return a;
+	//return b;
+   printf("a=%d and b=%d",a,b);
 	
 }
 int main(){
@@ -15,6 +15,8 @@ int main(){
 	scanf("%d",&a);
 	printf("Enter second value b= ");
 	scanf("%d",&b);
-	printf("a=%d and b=%d",swap(a,b));
+	swap(a,b);
+	//printf("a=%d and b=%d",swap(a,b));
 
 }
+
